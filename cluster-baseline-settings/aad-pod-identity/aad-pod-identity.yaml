@@ -242,13 +242,13 @@ spec:
             port: 8085
           initialDelaySeconds: 10
           periodSeconds: 5
-        resources:
-          limits:
-            cpu: 200m
-            memory: 512Mi
-          requests:
-            cpu: 100m
-            memory: 256Mi
+#        resources:
+#          limits:
+#            cpu: 200m
+#            memory: 512Mi
+#          requests:
+#            cpu: 100m
+#            memory: 256Mi
       nodeSelector:
         kubernetes.io/os: linux
         agentpool: npuser01
