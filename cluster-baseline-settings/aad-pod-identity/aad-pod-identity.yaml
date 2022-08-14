@@ -303,13 +303,13 @@ spec:
             port: 8080
           initialDelaySeconds: 10
           periodSeconds: 5
-        resources:
-          limits:
-            cpu: 200m
-            memory: 1024Mi
-          requests:
-            cpu: 100m
-            memory: 256Mi
+#        resources:
+#          limits:
+#            cpu: 200m
+#            memory: 1024Mi
+#          requests:
+#            cpu: 100m
+#            memory: 256Mi
       volumes:
       - name: k8s-azure-file
         hostPath:
