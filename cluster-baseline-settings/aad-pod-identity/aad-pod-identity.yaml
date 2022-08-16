@@ -238,7 +238,7 @@ spec:
           readOnly: true
         livenessProbe:
           httpGet:
-            path: /healthz
+#            path: /healthz
             port: 8085
           initialDelaySeconds: 10
           periodSeconds: 5
